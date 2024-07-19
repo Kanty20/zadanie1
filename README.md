@@ -5,7 +5,7 @@ VHDL project to learn about Evaluation Kit AC701 Artix7. The projects shows the 
 ## Contents:
 - [Information about board](#information)
 - [Instalation](#instalation)
-- [Additional Information](#additional_information)
+- [Additional information](#additional_information)
 - [Contact](#contact)
 
 ## Information about board
@@ -23,6 +23,15 @@ You will need to install Vivado program, next to upload all file which I share. 
 - button    - SW7,
 - LED's     - DS11-DS13,
 
+## Additional information
+
+How to add differencial clock?<br>
+1. You need to click "IP Catalog" (on right side)
+2. Write "Clock Wizard"
+3. Choose diff clock (just only one)
+4. Important (!) choose suitable frequency for your project (in my case it was 200MHz)
+5. Click ok or generate
+6. Now you need to add your clock by using component and Portmap (you should look on main program where it is)  
 
 ## Contact
 If you will need help or you have some questions feel free to write to me: dominika.kanty@onet.eu
