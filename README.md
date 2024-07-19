@@ -5,7 +5,7 @@ VHDL project to learn about Evaluation Kit AC701 Artix7. Blinking diode with a f
 ## Contents:
 - [Information about board](#information)
 - [Instalation](#instalation)
-- [File "filtr"](#file_filtr)
+- [File](#file)
 - [Additional information](#additional_information)
 - [Contact](#contact)
 
@@ -24,10 +24,12 @@ You will need to install Vivado program, next to upload all file which I share. 
 - button    - SW7,
 - LED's     - DS11-DS13,
 
-## File "filtr"
+## File
 
-This file is debouncer of button pressing.
-
+- "Main"- Main program,
+- "Filtr" -This file is debouncer of button pressing,
+- "Testbench"- simulation.
+  
 ## Additional information
 
 How to add differencial clock?<br>
