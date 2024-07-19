@@ -15,3 +15,9 @@ The project was working on an evaluation board AC701, a photo of which is shown 
 ![image](https://github.com/user-attachments/assets/72d104d8-f342-412c-b95b-daf0aa761073)
 
 ## Instalation
+
+You will need to install Vivado program, next to upload all file which I share. Additionally you will need to choose in "Open Design" -> "Window" -> " I/O Ports" specific for board ports. I choose:
+- sys_clock - P3
+- RST       - SW8
+- button    - SW7
+- LED's     - DS11-DS13 
