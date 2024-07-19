@@ -1,6 +1,6 @@
 # First project
 
-VHDL project to learn about Evaluation Kit AC701 Artix7. The projects shows the control of buttons and blinking leds in different frequencies. In addition, a differential clock is included in program. 
+VHDL project to learn about Evaluation Kit AC701 Artix7. Blinking diode with a frequency of 50 Hz. Operation of the button - after pressing the frequency decreases 2 times (6 possibilities 50,25,12.5,6.25,3.12,1.06 Hz after reaching the lowest and pressing the button again the highest frequency is set).  Implementation of binary counter presented on 4 LEDs (or more if there will be resources) counter counts the number of presses of the button to change the frequency (modulo 15). Operation of reset button which sets the initial settings. In addition, a differential clock is included in program. 
 
 ## Contents:
 - [Information about board](#information)
