@@ -5,6 +5,7 @@ VHDL project to learn about Evaluation Kit AC701 Artix7. Blinking diode with a f
 ## Contents:
 - [Information about board](#information)
 - [Instalation](#instalation)
+- [File "filtr"](#file_filtr)
 - [Additional information](#additional_information)
 - [Contact](#contact)
 
@@ -22,6 +23,10 @@ You will need to install Vivado program, next to upload all file which I share. 
 - RST       - SW8,
 - button    - SW7,
 - LED's     - DS11-DS13,
+
+## File "filtr"
+
+This file is debouncer of button pressing.
 
 ## Additional information
 
