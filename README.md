@@ -6,6 +6,7 @@ VHDL project to learn about Evaluation Kit AC701 Artix7. The projects shows the 
 - [Information about board](#information)
 - [Instalation](#instalation)
 - [Additional Information](#additional_information)
+- [Contact](#contact)
 
 ## Information about board
 
@@ -17,7 +18,11 @@ The project was working on an evaluation board AC701, a photo of which is shown 
 ## Instalation
 
 You will need to install Vivado program, next to upload all file which I share. Additionally you will need to choose in "Open Design" -> "Window" -> " I/O Ports" specific for board ports. I choose:
-- sys_clock - P3
-- RST       - SW8
-- button    - SW7
-- LED's     - DS11-DS13 
+- sys_clock - P3,
+- RST       - SW8,
+- button    - SW7,
+- LED's     - DS11-DS13,
+
+
+## Contact
+If you will need help or you have some questions feel free to write to me: dominika.kanty@onet.eu
